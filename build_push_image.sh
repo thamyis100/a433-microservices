@@ -10,7 +10,7 @@ docker images
 docker tag item-app:v1 ghcr.io/thamyis100/devops-proyek_1/item-app:v1
 
 # 4. Login ke GitHub Packages
-docker login ghcr.io -u thamyis100 -p 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
+docker login --username thamyis100 --password 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 ghcr.io
 
 # 5. Mengunggah image ke GitHub Packages
 docker push ghcr.io/thamyis100/devops-proyek_1/item-app:v1
