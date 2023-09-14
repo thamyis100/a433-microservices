@@ -1,0 +1,1 @@
+link github packages : https://ghcr.io/thamyis100/item-app:v1
