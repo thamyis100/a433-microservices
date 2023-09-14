@@ -7,10 +7,10 @@ docker build -t item-app:v1 .
 docker images
 
 # 3. Mengubah nama image agar sesuai dengan format GitHub Packages
-docker tag item-app:v1 docker.pkg.github.com/thamyis100/devops-proyek_1/item-app:v1
+docker tag item-app:v1 ghcr.io/thamyis100/devops-proyek_1/item-app:v1
 
 # 4. Login ke GitHub Packages
-docker login docker.pkg.github.com -u thamyis100 -p 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
+docker login ghcr.io -u thamyis100 -p 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
 
 # 5. Mengunggah image ke GitHub Packages
-docker push docker.pkg.github.com/thamyis100/devops-proyek_1/item-app:v1
+docker push ghcr.io/thamyis100/devops-proyek_1/item-app:v1
