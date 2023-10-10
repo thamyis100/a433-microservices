@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: karsajobs-ui-deployment
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: karsajobs-ui
+  template:
+    metadata:
+      labels:
+        app: karsajobs-ui
+    spec:
+      containers:
+        - name: karsajobs-ui
+          image: ghcr.io/thamyis100/devops-proyek_2/karsajobsui:v1 # Update with your image location
+          ports:
+            - containerPort: 3000

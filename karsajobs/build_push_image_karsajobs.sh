@@ -10,7 +10,7 @@ docker images
 docker tag karsajobs-app:v1 ghcr.io/thamyis100/devops-proyek_2/karsajobs-app:v1
 
 # 4. Login ke GitHub Packages
-docker login --username thamyis100 --password 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 ghcr.io
+docker login --username thamyis100 --password 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 ghcr.io
 
 # 5. Mengunggah image ke GitHub Packages
-docker push ghcr.io/thamyis100/karsajobs-app:v1
+docker push ghcr.io/thamyis100/devops-proyek_2/karsajobs-app:v1
