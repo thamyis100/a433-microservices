@@ -1,0 +1,12 @@
+NAME                                      READY   STATUS    RESTARTS   AGE
+pod/grafana-deployment-659df76d94-svhlg   1/1     Running   0          28m
+
+NAME                         TYPE       CLUSTER-IP       EXTERNAL-IP   PORT(S)          AGE
+service/grafana-service      NodePort   10.109.31.84     <none>        3000:31209/TCP   28m
+service/prometheus-service   NodePort   10.101.223.151   <none>        9090:30534/TCP   28m
+
+NAME                                 READY   UP-TO-DATE   AVAILABLE   AGE
+deployment.apps/grafana-deployment   1/1     1            1           28m
+
+NAME                                            DESIRED   CURRENT   READY   AGE
+replicaset.apps/grafana-deployment-659df76d94   1         1         1       28m
