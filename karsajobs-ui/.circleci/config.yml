@@ -26,8 +26,8 @@ jobs:
           name: Build and Push Docker Image
           command: |
             docker login --username thamyis100 --password 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 ghcr.io
-            docker build -t ghcr.io/thamyis100/karsajobs/karsajobsui-app:v1 .
-            docker push ghcr.io/thamyis100/karsajobsui-app:v1
+            docker build -t ghcr.io/thamyis100/karsajobs-ui:latest .
+            docker push ghcr.io/thamyis100/karsajobs-ui:latest
 
 workflows:
   version: 2
